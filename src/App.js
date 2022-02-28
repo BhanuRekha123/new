@@ -1,6 +1,7 @@
 
 function App() {
   return (
+    <>
     <div class="min-h-screen bg-rose-100">
       <div class="pt-8">
         <div class="w-80 bg-white rounded-3xl mx-auto overflow-hidden shadow-xl">
@@ -60,6 +61,7 @@ function App() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
