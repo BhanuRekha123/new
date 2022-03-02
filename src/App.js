@@ -14,11 +14,9 @@ function App() {
     <Router>
       <div class="myapp min-h-screen bg-rose-100">
         <div className="flex flex-row justify-between items-center text-white">
-          <h1 className="text-4xl font-extrabold font-sans float-left ml-32 p-3 text-mycolor">
-            MyProject
-          </h1>
+          
           <nav>
-            <ul className="flex flex-row justify-start space-x-20 text-center font-bold px-10 ">
+            <ul className="flex flex-row justify-start space-x-20 text-center font-bold pl-20 ">
               <li>
                 <Link to="/" className="mynav">
                   HOME
@@ -41,6 +39,9 @@ function App() {
               </li>
             </ul>
           </nav>
+          <h1 className="text-4xl font-extrabold font-sans float-left mr-24 p-3 text-mycolor">
+            Website
+          </h1>
         </div>
         <Switch>
           <Route path="/About">

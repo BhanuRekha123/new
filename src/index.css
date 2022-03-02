@@ -4,7 +4,7 @@
 
 @layer components {
   .mybtn {
-    @apply py-2 px-16 bg-mycolor text-white font-bold rounded-lg shadow-md hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-orange-400;
+    @apply py-2 px-16 bg-mycolor text-white font-bold rounded-lg shadow-md hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-sky-400;
   }
   .mynav {
     @apply focus:text-mycolor hover:underline hover:underline-offset-4 hover:decoration-mycolor focus:decoration-white hover:transition-all hover:duration-150 hover:delay-150;

@@ -3,11 +3,11 @@ import React from "react";
 function Form() {
   return (
     <div>
-      <div className="pt-20">
-        <div class="w-96 bg-white rounded-3xl mx-auto overflow-hidden shadow-xl">
+      <div className="pt-10">
+        <div class="w-80 bg-white rounded-3xl mx-auto overflow-hidden shadow-xl">
           <div class="h-20 bg-mycolor">
             <div className="pt-7 text-3xl text-center text-white font-bold">
-              Welcome Back!
+              Login Here!
             </div>
           </div>
           <div class="px-10 pt-4 pb-8">
