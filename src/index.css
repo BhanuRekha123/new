@@ -2,16 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@layer components {
+  .mybtn {
+    @apply py-2 px-16 bg-mycolor text-white font-bold rounded-lg shadow-md hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-orange-400;
+  }
+  .mynav {
+    @apply focus:text-mycolor hover:underline hover:underline-offset-4 hover:decoration-mycolor focus:decoration-white hover:transition-all hover:duration-150 hover:delay-150;
+  }
+  .mycontactform {
+    @apply block
+      w-full
+      mt-1
+      p-2
+      border-2
+      border-mycolor
+      border-opacity-40
+      rounded-sm
+      shadow-sm
+      focus:border-mycolor;
+  }
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
